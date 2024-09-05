@@ -1,0 +1,36 @@
+# Папка с зависимостями
+node_modules/
+
+# Лог-файлы
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Директория сборки Vite
+dist/
+
+# Локальные настройки окружения
+.env
+.env.local
+.env.*.local
+
+# Папка с кэшем Vite
+.vite/
+
+# TypeScript компиляционные файлы
+*.tsbuildinfo
+
+# Папка с кэшем IDE (например, VSCode)
+.vscode/
+.idea/
+
+# Папка с кэшем для интеграции с ESLint
+.eslintcache
+
+# Лог-файлы ошибок
+error.log
+*.log
+
+# Кэшные папки
+.cache/
