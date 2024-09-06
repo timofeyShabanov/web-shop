@@ -1,0 +1,49 @@
+.container {
+	display: inline-block;
+}
+
+.wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.toggle__container {
+	position: relative;
+}
+
+.toggle__label {
+	display: block;
+	width: 40px;
+	height: 24px;
+	border-radius: 12px;
+	background-color: var(--toggle-label-background-color);
+	cursor: pointer;
+	position: relative;
+	transition: background-color 0.3s, box-shadow 0.3s;
+	box-shadow: var(--toggle-label-box-shadow);
+}
+
+.toggle__label::before {
+	content: "";
+	position: absolute;
+	top: 2px;
+	left: 2px;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background-color: var(--toggle-label-color);
+	transition: transform 0.3s ease;
+}
+
+.toggle__btn {
+	display: none;
+}
+
+.toggle__btn:checked + .toggle__label::before {
+	transform: translateX(16px);
+}
+
+.toggle__label:hover {
+	background-color: #bc83ff;
+}
