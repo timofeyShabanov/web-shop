@@ -1,0 +1,22 @@
+body {
+	--background-color: #fff;
+	--color: #000;
+	// toggle-label
+	--toggle-label-background-color: #000;
+	--toggle-label-color: #fff;
+	--toggle-label-box-shadow: 0 0 10px rgb(61, 61, 61)
+}
+
+body.dark {
+	--background-color: #000;
+	--color: #fff;
+	// toggle-label
+	--toggle-label-background-color: #fff;
+	--toggle-label-color: #000;
+	--toggle-label-box-shadow: 0 0 10px rgb(255, 255, 255)
+}
+
+body{
+	background-color: var(--background-color);
+	color: var(--color);
+}
