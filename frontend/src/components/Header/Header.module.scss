@@ -1,0 +1,66 @@
+.container {
+	height: auto;
+	width: 100%;
+	background-color: var(--background-color);
+	border-radius: 10px;
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+	flex-direction: row-reverse;
+}
+
+.logo__container {
+	height: auto;
+	width: 60px;
+	background-color: #fff;
+}
+
+.logo {
+	height: 60px;
+}
+
+.nav {
+	display: flex;
+	justify-content: center;  /* Горизонтальное выравнивание по центру */
+	align-items: center;      /* Вертикальное выравнивание по центру */
+	width: 400px;
+}
+
+
+.nav__item {
+
+	width: 100px;
+
+}
+
+.nav__item:nth-child(1) {
+	order: 1; /* Favorite */
+}
+.nav__item:nth-child(2) {
+	order: 2; /* Cart */
+}
+.nav__item:nth-child(3) {
+	order: 3; /* Profile */
+}
+
+.nav__span {
+	display: flex;
+	align-items: center; /* Выравнивание по вертикали по центру */
+	cursor: pointer;
+	transition: color 0.3s ease; /* Плавный переход цвета */
+	gap: 8px; /* Отступ между картинкой и текстом */
+}
+
+.nav__span:hover {
+	color: #bc83ff; /* Цвет при наведении */
+}
+
+
+hr {
+	position: absolute;
+	bottom: 0; /* Полоска внизу */
+	width: 100%;
+	border: 1px solid var(--color);
+	margin: 0;
+	box-shadow: var(--shadow);
+}

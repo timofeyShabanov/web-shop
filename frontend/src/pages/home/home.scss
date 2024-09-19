@@ -1,19 +1,21 @@
 body {
 	--background-color: #fff;
 	--color: #000;
+	--shadow: 0 0 10px rgb(61, 61, 61);
 	// toggle-label
 	--toggle-label-background-color: #000;
 	--toggle-label-color: #fff;
-	--toggle-label-box-shadow: 0 0 10px rgb(61, 61, 61)
+	// header
 }
 
 body.dark {
 	--background-color: #000;
 	--color: #fff;
+	--shadow: 0 0 10px rgb(255, 255, 255);
 	// toggle-label
 	--toggle-label-background-color: #fff;
 	--toggle-label-color: #000;
-	--toggle-label-box-shadow: 0 0 10px rgb(255, 255, 255)
+	// header
 }
 
 body{
